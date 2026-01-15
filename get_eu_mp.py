@@ -182,9 +182,13 @@ def parse_mep_profile(mep_id: str, url: str) -> Optional[MEP]:
     email_el = soup.find("a", class_="link_email")
     email = None
     if email_el and email_el.has_attr("href"):
-        href = email_el["href"]
+        href = email_el["href"].strip()
+
         if href.startswith("mailto:"):
             email = href[len("mailto:"):].strip()
+        elif "[at]" in href and "[dot]" in href:
+            decoded = href.replace("[dot]", ".").replace("[at]", "@")[::-1]
+            email = decoded.strip()
 
     # X / Twitter
     # <a class="link_twitt mr-2" href="https://x.com/MikaAaltola" ...>
