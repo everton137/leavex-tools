@@ -20,5 +20,26 @@
         "xStatus": "active",
         "source": "manual",
         "updatedAt": "2026-01-15"
+    },
+    "mep_256916": {
+        "usesX": true,
+        "xHandle": "@MStakis",
+        "xStatus": "active",
+        "source": "manual",
+        "updatedAt": "2026-01-16"
+    },
+    "mep_256909": {
+        "usesX": true,
+        "xHandle": "@KristopansVilis",
+        "xStatus": "active",
+        "source": "manual",
+        "updatedAt": "2026-01-16"
+    },
+    "mep_197810": {
+        "usesX": true,
+        "xHandle": "@nilsusakovs",
+        "xStatus": "active",
+        "source": "manual",
+        "updatedAt": "2026-01-16"
     }
 }
