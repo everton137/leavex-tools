@@ -41,5 +41,71 @@
         "xStatus": "active",
         "source": "manual",
         "updatedAt": "2026-01-16"
+    },
+    "mep_185619": {
+        "xStatus": "inactive",
+        "xLeftAt": "2026-01-13",
+        "xNotes": "“.@elonmusk ist ein Feind Europas. Er hasst unsere Demokratie, unseren Rechtsstaat, unsere Werte und alles andere, was seiner Raffgier im Weg steht. Ich habe deshalb beschlossen, X zu verlassen. Ich habe lange mit mir gerungen, ob ich diesen Schritt wirklich gehen will.”",
+        "xLastArchiveUrl": "https://archive.is/fhjel",
+        "source": "manual",
+        "updatedAt": "2026-01-18"
+    },
+    "mep_206158": {
+        "xStatus": "inactive",
+        "xLeftAt": "2025-01-14",
+        "xNotes": "“Bye, Bye X! #X fördert #Desinformation, #Hass und #Hetze. Ich wechsle zu Bluesky & Mastodon. Auch Politiker:innen & EU-Kommissare sollten folgen und europäische Alternativen stärken, um demokratische Werte zu schützen.”",
+        "xLastArchiveUrl": "https://archive.is/mUqQE",
+        "source": "manual",
+        "updatedAt": "2026-01-18"
+    },
+    "mep_197466": {
+        "xStatus": "inactive",
+        "xLeftAt": "2025-02-24",
+        "xNotes": "“Ich werde X verlassen. Gründe finden sich zuhauf, bei dem, was seit dem 20.1. geschieht. Dieser Account bleibt vorerst bestehen, auch um Fake-Accounts mit meinem Namen zu verhindern. Ihr findet mich im blauen Himmel. @juttapaulus.bsky.social”",
+        "xLastArchiveUrl": "https://archive.is/1PLXI",
+        "source": "manual",
+        "updatedAt": "2026-01-18"
+    },
+    "mep_197433": {
+        "usesX": false,
+        "xHandle": null,
+        "source": "manual",
+        "updatedAt": "2026-01-18"
+    },
+    "mep_197440": {
+        "usesX": false,
+        "xHandle": null,
+        "source": "manual",
+        "updatedAt": "2026-01-18"
+    },
+    "mep_28226": {
+        "usesX": false,
+        "xHandle": null,
+        "source": "manual",
+        "updatedAt": "2026-01-18"
+    },
+    "mep_96752": {
+        "usesX": false,
+        "xHandle": null,
+        "source": "manual",
+        "updatedAt": "2026-01-18"
+    },
+    "mep_124836": {
+        "usesX": false,
+        "xHandle": null,
+        "source": "manual",
+        "updatedAt": "2026-01-18"
+    },
+    "mep_96932": {
+        "usesX": false,
+        "xHandle": null,
+        "source": "manual",
+        "updatedAt": "2026-01-18"
+    },
+    "mep_124808": {
+        "usesX": true,
+        "xHandle": "@norbertlins",
+        "source": "manual",
+        "updatedAt": "2026-01-18"
     }
 }

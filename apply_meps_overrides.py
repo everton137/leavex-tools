@@ -16,6 +16,7 @@ Behavior:
 
 import json
 from pathlib import Path
+from urllib.parse import urlparse
 
 BASE_FILE = Path("data/meps_all.json")
 OVERRIDES_FILE = Path("data/meps_overrides.json")
@@ -49,6 +50,65 @@ def main():
             if obj_id in index:
                 print(f"[WARN] Duplicate id in base data: {obj_id}")
             index[obj_id] = obj
+
+    def _extract_handle(v):
+        if v is None:
+            return None
+        if not isinstance(v, str):
+            return None
+        v = v.strip()
+        if not v:
+            return None
+
+        # URL case
+        if "://" in v:
+            try:
+                p = urlparse(v)
+            except Exception:
+                return None
+            host = (p.netloc or "").lower()
+            if host.endswith("x.com") or host.endswith("twitter.com"):
+                path = (p.path or "").strip("/")
+                if not path:
+                    return None
+                return path.split("/")[0] or None
+            return None
+
+        # @handle or handle
+        return v.lstrip("@").strip() or None
+
+
+    def normalize_x_fields(obj: dict):
+        if not isinstance(obj, dict):
+            return
+
+        uses = obj.get("usesX", None)
+        xh = obj.get("xHandle", None)
+
+        handle = _extract_handle(xh)
+
+        # If usesX explicitly false: force xHandle = null
+        if uses is False:
+            obj["xHandle"] = None
+            return
+
+        # If we have a handle, normalize it and (optionally) set usesX
+        if handle:
+            obj["xHandle"] = f"@{handle}"
+            if uses is None:
+                obj["usesX"] = True
+            return
+
+        # No handle present (null/empty/unparseable)
+        if uses is None:
+            obj["usesX"] = False
+        # If usesX true but xHandle missing, keep as-is (or choose to force false)
+        if obj.get("usesX") is False:
+            obj["xHandle"] = None
+
+    # After applying overrides:
+    for obj in base_data:
+        normalize_x_fields(obj)
 
     # Apply overrides
     for mep_id, override_data in overrides.items():
