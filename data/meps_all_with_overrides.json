@@ -262,8 +262,10 @@
     "party": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "euGroupFull": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "email": "marc.angel@europarl.europa.eu",
-    "usesX": true,
-    "xHandle": "@marcangel_lu"
+    "usesX": false,
+    "xHandle": null,
+    "source": "manual",
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_124973",
@@ -5165,10 +5167,10 @@
     "party": "Group of the European People's Party (Christian Democrats)",
     "euGroupFull": "Group of the European People's Party (Christian Democrats)",
     "email": "norbert.lins@europarl.europa.eu",
-    "usesX": true,
-    "xHandle": "@norbertlins",
+    "usesX": false,
+    "xHandle": null,
     "source": "manual",
-    "updatedAt": "2026-01-18"
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_197494",
