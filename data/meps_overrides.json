@@ -107,5 +107,57 @@
         "xHandle": "@norbertlins",
         "source": "manual",
         "updatedAt": "2026-01-18"
+    },
+    "mep_256805": {
+        "usesX": true,
+        "xHandle": "@liandersson",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_197800": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@EeroHeinaluoma",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_191693":  {
+        "xStatus": "inactive",
+        "xLeftAt": "2026-01-15",
+        "xNotes": "Siirryn käyttämään Threads-palvelua, ja jatkossa voit seurata päivityksiäni siellä @elsikatainen. Lue uusin julkaisuni linkistä.",
+        "xLastArchiveUrl": "https://archive.is/iroZf",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_198084": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@KatriKulmuni",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_198076":  {
+        "usesX": true,
+        "xHandle": "@MariaOhisalo",
+        "xStatus": "inactive",
+        "xLeftAt": "2025-01-13",
+        "xNotes": "Hyvästi X. Alustalla levitettävä vihapuhe, disinformaatio, avoin rasismi ja naisviha sekä täysi haluttomuus puuttua näihin ongelmiin ovat suoria uhkia demokratialle. Löydät minut jatkossa muista somekanavista, mm. Blueskysta ja Threadsista. Kuulemisiin!",
+        "xLastArchiveUrl": "https://archive.is/5eIiV",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_98219": {
+        "usesX": false,
+        "xHandle": null,
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_127766":  {
+        "xStatus": "inactive",
+        "xLeftAt": "2024-12-18",
+        "xNotes": "Hyvästi, Elon Musk! Nyt lopetan X:n käytön. 1/7",
+        "xLastArchiveUrl": "https://archive.is/JPdkG",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
     }
 }
