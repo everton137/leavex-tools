@@ -108,16 +108,91 @@
         "source": "manual",
         "updatedAt": "2026-01-18"
     },
-    "mep_124808": {
+    "mep_256805": {
+        "usesX": true,
+        "xHandle": "@liandersson",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_197800": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@EeroHeinaluoma",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_191693":  {
+        "xStatus": "inactive",
+        "xLeftAt": "2026-01-15",
+        "xNotes": "Siirryn käyttämään Threads-palvelua, ja jatkossa voit seurata päivityksiäni siellä @elsikatainen. Lue uusin julkaisuni linkistä.",
+        "xLastArchiveUrl": "https://archive.is/iroZf",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_198084": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@KatriKulmuni",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_198076":  {
+        "usesX": true,
+        "xHandle": "@MariaOhisalo",
+        "xStatus": "inactive",
+        "xLeftAt": "2025-01-13",
+        "xNotes": "Hyvästi X. Alustalla levitettävä vihapuhe, disinformaatio, avoin rasismi ja naisviha sekä täysi haluttomuus puuttua näihin ongelmiin ovat suoria uhkia demokratialle. Löydät minut jatkossa muista somekanavista, mm. Blueskysta ja Threadsista. Kuulemisiin!",
+        "xLastArchiveUrl": "https://archive.is/5eIiV",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_98219": {
         "usesX": false,
         "xHandle": null,
         "source": "manual",
         "updatedAt": "2026-01-21"
     },
-    "mep_202073": {
+    "mep_127766":  {
+        "xStatus": "inactive",
+        "xLeftAt": "2024-12-18",
+        "xNotes": "Hyvästi, Elon Musk! Nyt lopetan X:n käytön. 1/7",
+        "xLastArchiveUrl": "https://archive.is/JPdkG",
+        "source": "manual",
+        "updatedAt": "2026-01-21"
+    },
+    "mep_197684": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@pernandobarrena",
+        "source": "manual",
+        "updatedAt": "2026-01-22"
+    },
+    "mep_193292":  {
         "usesX": false,
         "xHandle": null,
         "source": "manual",
         "updatedAt": "2026-01-21"
+    },
+    "mep_202073":  {
+        "usesX": false,
+        "xHandle": null,
+        "source": "manual",
+        "updatedAt": "2026-01-22"
+    },
+    "mep_197470":  {
+        "xStatus": "inactive",
+        "xLeftAt": "2025-01-17",
+        "xNotes": "Rendez-vous dans le #CielBleu ! https://bsky.app/profile/saskiabricmont.bsky.social",
+        "xLastArchiveUrl": "https://archive.is/QemF2",
+        "source": "manual",
+        "updatedAt": "2026-01-22"
+    },
+    "mep_197549":  {
+        "xStatus": "inactive",
+        "xLeftAt": "2026-01-14",
+        "xNotes": "Na své narozeniny... Odcházím z X. 🤗 Už se to rozhodnutí peklo dlouho, ale nový rok, Muskovo 'zničení Evropské unie', algoritmická podpora nácků, volná vláda botů a svlíkání dětí do naha mě konečně popostrčili. Z veřejné debaty neodcházím, sejdeme se na BlueSky nebo Instagramu.",
+        "xLastArchiveUrl": "https://archive.is/GEoPY",
+        "source": "manual",
+        "updatedAt": "2026-01-22"
     }
 }

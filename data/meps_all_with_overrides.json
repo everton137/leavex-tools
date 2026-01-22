@@ -178,8 +178,10 @@
     "party": "The Left group in the European Parliament - GUE/NGL",
     "euGroupFull": "The Left group in the European Parliament - GUE/NGL",
     "email": "li.andersson@europarl.europa.eu",
-    "usesX": false,
-    "xHandle": null
+    "usesX": true,
+    "xHandle": "@liandersson",
+    "source": "manual",
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_197448",
@@ -265,7 +267,7 @@
     "usesX": false,
     "xHandle": null,
     "source": "manual",
-    "updatedAt": "2026-01-21"
+    "updatedAt": "2026-01-22"
   },
   {
     "id": "mep_124973",
@@ -602,8 +604,11 @@
     "party": "The Left group in the European Parliament - GUE/NGL",
     "euGroupFull": "The Left group in the European Parliament - GUE/NGL",
     "email": "pernando.barrena@europarl.europa.eu",
-    "usesX": false,
-    "xHandle": null
+    "usesX": true,
+    "xHandle": "@pernandobarrena",
+    "xStatus": "active",
+    "source": "manual",
+    "updatedAt": "2026-01-22"
   },
   {
     "id": "mep_257000",
@@ -1233,7 +1238,13 @@
     "euGroupFull": "Group of the Greens/European Free Alliance",
     "email": "saskia.bricmont@europarl.europa.eu",
     "usesX": true,
-    "xHandle": "@saskiabricmont"
+    "xHandle": "@saskiabricmont",
+    "xStatus": "inactive",
+    "xLeftAt": "2025-01-17",
+    "xNotes": "Rendez-vous dans le #CielBleu ! https://bsky.app/profile/saskiabricmont.bsky.social",
+    "xLastArchiveUrl": "https://archive.is/QemF2",
+    "source": "manual",
+    "updatedAt": "2026-01-22"
   },
   {
     "id": "mep_204129",
@@ -3086,7 +3097,7 @@
     "email": "alexandra.geese@europarl.europa.eu",
     "usesX": true,
     "xHandle": "@alexandrageese",
-    "xStatus": "exited",
+    "xStatus": "inactive",
     "xLeftAt": "2025-02-25",
     "xNotes": "“I‘m out of here! Come and find me on Bluesky, LinkedIn and Mastodon! X is a far-right network actively pursuing authoritarian regime change. Let’s feed democratic platforms, not fascists.”",
     "xLastArchiveUrl": "https://archive.is/lxqhK",
@@ -3497,7 +3508,13 @@
     "euGroupFull": "Group of the Greens/European Free Alliance",
     "email": "marketa.gregorova@europarl.europa.eu",
     "usesX": true,
-    "xHandle": "@MarketkaG"
+    "xHandle": "@MarketkaG",
+    "xStatus": "inactive",
+    "xLeftAt": "2026-01-14",
+    "xNotes": "Na své narozeniny... Odcházím z X. 🤗 Už se to rozhodnutí peklo dlouho, ale nový rok, Muskovo 'zničení Evropské unie', algoritmická podpora nácků, volná vláda botů a svlíkání dětí do naha mě konečně popostrčili. Z veřejné debaty neodcházím, sejdeme se na BlueSky nebo Instagramu.",
+    "xLastArchiveUrl": "https://archive.is/GEoPY",
+    "source": "manual",
+    "updatedAt": "2026-01-22"
   },
   {
     "id": "mep_220908",
@@ -3862,8 +3879,11 @@
     "party": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "euGroupFull": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
     "email": "eero.heinaluoma@europarl.europa.eu",
-    "usesX": false,
-    "xHandle": null
+    "usesX": true,
+    "xHandle": "@EeroHeinaluoma",
+    "xStatus": "active",
+    "source": "manual",
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_198073",
@@ -4423,7 +4443,13 @@
     "euGroupFull": "Renew Europe Group",
     "email": "elsi.katainen@europarl.europa.eu",
     "usesX": true,
-    "xHandle": "@elsikatainen"
+    "xHandle": "@elsikatainen",
+    "xStatus": "inactive",
+    "xLeftAt": "2026-01-15",
+    "xNotes": "Siirryn käyttämään Threads-palvelua, ja jatkossa voit seurata päivityksiäni siellä @elsikatainen. Lue uusin julkaisuni linkistä.",
+    "xLastArchiveUrl": "https://archive.is/iroZf",
+    "source": "manual",
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_125068",
@@ -4845,8 +4871,11 @@
     "party": "Renew Europe Group",
     "euGroupFull": "Renew Europe Group",
     "email": "katri.kulmuni@europarl.europa.eu",
-    "usesX": false,
-    "xHandle": null
+    "usesX": true,
+    "xHandle": "@KatriKulmuni",
+    "xStatus": "active",
+    "source": "manual",
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_124736",
@@ -5167,10 +5196,10 @@
     "party": "Group of the European People's Party (Christian Democrats)",
     "euGroupFull": "Group of the European People's Party (Christian Democrats)",
     "email": "norbert.lins@europarl.europa.eu",
-    "usesX": false,
-    "xHandle": null,
+    "usesX": true,
+    "xHandle": "@norbertlins",
     "source": "manual",
-    "updatedAt": "2026-01-21"
+    "updatedAt": "2026-01-18"
   },
   {
     "id": "mep_197494",
@@ -5869,8 +5898,10 @@
     "party": "Group of the Greens/European Free Alliance",
     "euGroupFull": "Group of the Greens/European Free Alliance",
     "email": "tilly.metz@europarl.europa.eu",
-    "usesX": true,
-    "xHandle": "@MetzTilly"
+    "usesX": false,
+    "xHandle": null,
+    "source": "manual",
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_197497",
@@ -6501,8 +6532,14 @@
     "party": "Group of the Greens/European Free Alliance",
     "euGroupFull": "Group of the Greens/European Free Alliance",
     "email": "maria.ohisalo@europarl.europa.eu",
-    "usesX": false,
-    "xHandle": null
+    "usesX": true,
+    "xHandle": "@MariaOhisalo",
+    "xStatus": "inactive",
+    "xLeftAt": "2025-01-13",
+    "xNotes": "Hyvästi X. Alustalla levitettävä vihapuhe, disinformaatio, avoin rasismi ja naisviha sekä täysi haluttomuus puuttua näihin ongelmiin ovat suoria uhkia demokratialle. Löydät minut jatkossa muista somekanavista, mm. Blueskysta ja Threadsista. Kuulemisiin!",
+    "xLastArchiveUrl": "https://archive.is/5eIiV",
+    "source": "manual",
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_257083",
@@ -6741,7 +6778,7 @@
     "email": "jutta.paulus@europarl.europa.eu",
     "usesX": true,
     "xHandle": "@juttapaulusrlp",
-    "xStatus": "exited",
+    "xStatus": "inactive",
     "xLeftAt": "2025-02-24",
     "xNotes": "“Ich werde X verlassen. Gründe finden sich zuhauf, bei dem, was seit dem 20.1. geschieht. Dieser Account bleibt vorerst bestehen, auch um Fake-Accounts mit meinem Namen zu verhindern. Ihr findet mich im blauen Himmel. @juttapaulus.bsky.social”",
     "xLastArchiveUrl": "https://archive.is/1PLXI",
@@ -7380,7 +7417,7 @@
     "email": "manuela.ripa@europarl.europa.eu",
     "usesX": true,
     "xHandle": "@RipaManuela",
-    "xStatus": "exited",
+    "xStatus": "inactive",
     "xLeftAt": "2025-01-14",
     "xNotes": "“Bye, Bye X! #X fördert #Desinformation, #Hass und #Hetze. Ich wechsle zu Bluesky & Mastodon. Auch Politiker:innen & EU-Kommissare sollten folgen und europäische Alternativen stärken, um demokratische Werte zu schützen.”",
     "xLastArchiveUrl": "https://archive.is/mUqQE",
@@ -7538,8 +7575,10 @@
     "party": "Group of the European People's Party (Christian Democrats)",
     "euGroupFull": "Group of the European People's Party (Christian Democrats)",
     "email": "aura.salla@europarl.europa.eu",
-    "usesX": true,
-    "xHandle": "@AuraSalla"
+    "usesX": false,
+    "xHandle": null,
+    "source": "manual",
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_197722",
@@ -7595,7 +7634,13 @@
     "euGroupFull": "The Left group in the European Parliament - GUE/NGL",
     "email": "jussi.saramo@europarl.europa.eu",
     "usesX": true,
-    "xHandle": "@jussisaramo"
+    "xHandle": "@jussisaramo",
+    "xStatus": "inactive",
+    "xLeftAt": "2024-12-18",
+    "xNotes": "Hyvästi, Elon Musk! Nyt lopetan X:n käytön. 1/7",
+    "xLastArchiveUrl": "https://archive.is/JPdkG",
+    "source": "manual",
+    "updatedAt": "2026-01-21"
   },
   {
     "id": "mep_197578",
@@ -9844,7 +9889,7 @@
     "email": "tiemo.woelken@europarl.europa.eu",
     "usesX": true,
     "xHandle": "@woelken",
-    "xStatus": "exited",
+    "xStatus": "inactive",
     "xLeftAt": "2026-01-13",
     "xNotes": "“.@elonmusk ist ein Feind Europas. Er hasst unsere Demokratie, unseren Rechtsstaat, unsere Werte und alles andere, was seiner Raffgier im Weg steht. Ich habe deshalb beschlossen, X zu verlassen. Ich habe lange mit mir gerungen, ob ich diesen Schritt wirklich gehen will.”",
     "xLastArchiveUrl": "https://archive.is/fhjel",
