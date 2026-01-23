@@ -1,0 +1,56 @@
+SELECT
+  ?qid
+  (SAMPLE(?name) AS ?name)
+  (SAMPLE(?partyQid) AS ?partyQid)
+  (SAMPLE(?partyLabel) AS ?party)
+  (SAMPLE(?email) AS ?email)
+  (MAX(?usesX_) AS ?usesX)
+  (SAMPLE(?xHandle) AS ?xHandle)
+
+  (SAMPLE(?country) AS ?country)
+  (SAMPLE(?countryCode) AS ?countryCode)
+  (SAMPLE(?level) AS ?level)
+  (SAMPLE(?institution) AS ?institution)
+  (SAMPLE(?role) AS ?role)
+WHERE {
+  # current MdB
+  ?person p:P39 ?st .
+  ?st ps:P39 wd:Q1939555 .
+  OPTIONAL { ?st pq:P582 ?endDate . }
+  FILTER( !BOUND(?endDate) || ?endDate > NOW() )
+
+  BIND(STRAFTER(STR(?person), "entity/") AS ?qid)
+
+  # --- Explicit label: prefer German, fallback English ---
+  OPTIONAL { ?person rdfs:label ?nameDe . FILTER(LANG(?nameDe) = "de") }
+  OPTIONAL { ?person rdfs:label ?nameEn . FILTER(LANG(?nameEn) = "en") }
+  BIND(COALESCE(?nameDe, ?nameEn) AS ?name)
+
+  # Party
+  OPTIONAL {
+    ?person wdt:P102 ?partyItem .
+    BIND(STRAFTER(STR(?partyItem), "entity/") AS ?partyQid)
+    OPTIONAL { ?partyItem rdfs:label ?partyDe . FILTER(LANG(?partyDe) = "de") }
+    OPTIONAL { ?partyItem rdfs:label ?partyEn . FILTER(LANG(?partyEn) = "en") }
+    BIND(COALESCE(?partyDe, ?partyEn) AS ?partyLabel)
+  }
+
+  # Email
+  OPTIONAL { ?person wdt:P968 ?email . }
+
+  # X handle (no '@' in Wikidata)
+  OPTIONAL {
+    ?person wdt:P2002 ?x .
+    BIND(CONCAT("@", ?x) AS ?xHandle)
+  }
+  BIND(IF(BOUND(?x), 1, 0) AS ?usesX_)
+
+  # Constants
+  BIND("Germany" AS ?country)
+  BIND("DE" AS ?countryCode)
+  BIND("national" AS ?level)
+  BIND("Bundestag" AS ?institution)
+  BIND("MP" AS ?role)
+}
+GROUP BY ?qid
+ORDER BY ?name
