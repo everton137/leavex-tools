@@ -194,5 +194,72 @@
         "xLastArchiveUrl": "https://archive.is/GEoPY",
         "source": "manual",
         "updatedAt": "2026-01-22"
+    },
+    "mep_190464":  {
+        "xStatus": "exited",
+        "xLeftAt": "2025-01-25",
+        "xNotes": "Baba und fall ned. Elon Musk unterstützt Rechtsextreme und verwandelt seine Plattform in eine Hass- und Desinformationsschleuder. Es reicht. Ihr findet mich in Zukunft nur noch im Blauen Himmel.",
+        "xLastArchiveUrl": "https://archive.is/hfNRe",
+        "source": "manual",
+        "updatedAt": "2026-01-29"
+    },
+    "mep_124973": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@gannemans",
+        "source": "manual",
+        "updatedAt": "2026-01-29"
+    },
+    "mep_1294": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@eliodirupo",
+        "source": "manual",
+        "updatedAt": "2026-01-29"
+    },
+    "mep_197469": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@Assita_Kanko",
+        "source": "manual",
+        "updatedAt": "2026-01-29"
+    },
+    "mep_197463": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@OChastel",
+        "source": "manual",
+        "updatedAt": "2026-01-29"
+    },
+    "mep_256885": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@brunotobback",
+        "source": "manual",
+        "updatedAt": "2026-01-29"
+    },
+    "mep_5729": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@kvanbrempt",
+        "source": "manual",
+        "updatedAt": "2026-01-29"
+    },
+    "mep_256884": {
+        "usesX": true,
+        "xHandle": "@KrisVanDijck1",
+        "xStatus": "exited",
+        "xLeftAt": "2020-07-02",
+        "xNotes": "Ik ervaar vandaag opnieuw dat twitter gewoon dient om op de man te spelen, en vooral door linkse klojos. Ik sluit mijn account. Het leven is mooier zonder twitter. :)Arrivederci, adios, goodbye, salut, adieu.",
+        "xLastArchiveUrl": "https://archive.is/DP55W",
+        "source": "manual",
+        "updatedAt": "2026-01-29"
+    },
+    "mep_125106": {
+        "usesX": true,
+        "xStatus": "active",
+        "xHandle": "@jvanovertveldt",
+        "source": "manual",
+        "updatedAt": "2026-01-29"
     }
 }
