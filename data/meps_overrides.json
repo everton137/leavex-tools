@@ -261,5 +261,17 @@
         "xHandle": "@jvanovertveldt",
         "source": "manual",
         "updatedAt": "2026-01-29"
+    },
+    "mep_256978": {
+        "usesX": true,
+        "xHandle": "@rlanschot",
+        "xStatus": "exited",
+        "xLeftAt": "2025-01-07",
+        "xNotes": "...  over a year ago I decided to delete the app for the many reasons you are all aware of. At the same time, Volt Nederland - my party - also left the platform, becoming the first political party to do so in the Netherlands.",
+        "xLastArchiveUrl": "https://mastodon.social/@leavex/115984372330367901",
+        "source": "manual",
+        "updatedAt": "2026-01-30"
     }
 }
+
+
